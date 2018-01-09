@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/</loc>
+    <lastmod>2018-01-09T15:08:21.270Z</lastmod>
+    <data>
+        <display>
+        <title>安装Gogs并共享主机22端口</title>
+        <pubTime>2018-01-09T13:40:36.000Z</pubTime>
+        
+        <tag>Docker</tag>
+         
+        <tag>git</tag>
+         
+        <tag>Gogs</tag>
+         
+        <tag>ssh</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://notes.guoliangwu.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://notes.guoliangwu.com/2017/12/26/use-docker-for-development/</loc>
     <lastmod>2017-12-26T13:55:54.952Z</lastmod>
     <data>
@@ -24,30 +50,6 @@
 
     
   <url>
-    <loc>http://notes.guoliangwu.com/2017/01/20/hexo-setup/</loc>
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
-    <data>
-        <display>
-        <title>安装Hexo</title>
-        <pubTime>2017-01-20T13:29:22.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Blog" url="http://notes.guoliangwu.com/categories/Blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-    
-  <url>
     <loc>http://notes.guoliangwu.com/2017/02/10/hexo-configuration/</loc>
     <lastmod>2017-10-29T07:59:05.279Z</lastmod>
     <data>
@@ -55,11 +57,11 @@
         <title>hexo配置</title>
         <pubTime>2017-02-10T02:18:32.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>git</tag>
          
         <tag>ssh</tag>
          
-        <tag>git</tag>
+        <tag>hexo</tag>
          
          
            
@@ -70,6 +72,8 @@
     </data>
     </url>
 
+    
+    
     
     
   <url>
@@ -92,20 +96,22 @@
     </url>
 
     
+    
+    
   <url>
-    <loc>http://notes.guoliangwu.com/2017/02/20/IE-JavaScript-Item-Problem/</loc>
-    <lastmod>2017-10-29T07:59:05.278Z</lastmod>
+    <loc>http://notes.guoliangwu.com/2017/01/20/hexo-setup/</loc>
+    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
     <data>
         <display>
-        <title>IE中JavaScript的Item坑</title>
-        <pubTime>2017-02-20T04:37:47.000Z</pubTime>
+        <title>安装Hexo</title>
+        <pubTime>2017-01-20T13:29:22.000Z</pubTime>
         
-        <tag>JavaScript</tag>
+        <tag>hexo</tag>
          
          
            
              
-              <breadCrumb title="Java" url="http://notes.guoliangwu.com/categories/Java/"/>
+              <breadCrumb title="Blog" url="http://notes.guoliangwu.com/categories/Blog/"/>
           
         </display>
     </data>
@@ -169,6 +175,26 @@
         <pubTime>2017-04-11T03:52:25.000Z</pubTime>
         
         <tag>MyBatis</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://notes.guoliangwu.com/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://notes.guoliangwu.com/2017/02/20/IE-JavaScript-Item-Problem/</loc>
+    <lastmod>2017-10-29T07:59:05.278Z</lastmod>
+    <data>
+        <display>
+        <title>IE中JavaScript的Item坑</title>
+        <pubTime>2017-02-20T04:37:47.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
          
          
            
