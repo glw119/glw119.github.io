@@ -1,4 +1,167 @@
-<!doctype html><html class="theme-next pisces use-motion" lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css"><link href="//fonts.lug.ustc.edu.cn/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css"><link href="//cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css"><link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css"><meta name="keywords" content="Liangwu, notes"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0"><meta name="description" content="Idea, Action"><meta property="og:type" content="website"><meta property="og:title" content="Liangwu&#39;s Notes"><meta property="og:url" content="http://notes.guoliangwu.com/index.html"><meta property="og:site_name" content="Liangwu&#39;s Notes"><meta property="og:description" content="Idea, Action"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Liangwu&#39;s Notes"><meta name="twitter:description" content="Idea, Action"><script type="text/javascript" id="hexo.configurations">var NexT=window.NexT||{},CONFIG={root:"/",scheme:"Pisces",sidebar:{position:"left",display:"post"},fancybox:!0,motion:!0,duoshuo:{userId:"6374702565665277000",author:"Author"},algolia:{applicationID:"",apiKey:"",indexName:"",hits:{per_page:10},labels:{input_placeholder:"Search for Posts",hits_empty:"We didn't find any results for the search: ${query}",hits_stats:"${hits} results found in ${time} ms"}}}</script><link rel="canonical" href="http://notes.guoliangwu.com/"><title>Liangwu's Notes</title></head><body itemscope itemtype="http://schema.org/WebPage" lang="en"><div class="container one-collumn sidebar-position-left page-home"><div class="headband"></div><header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="header-inner"><div class="site-meta"><div class="custom-logo-site-title"><a href="/" class="brand" rel="start"><span class="logo-line-before"><i></i></span> <span class="site-title">Liangwu's Notes</span> <span class="logo-line-after"><i></i></span></a></div><h1 class="site-subtitle" itemprop="description">Just note anything</h1></div><div class="site-nav-toggle"><button><span class="btn-bar"></span> <span class="btn-bar"></span> <span class="btn-bar"></span></button></div><nav class="site-nav"><ul id="menu" class="menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i><br>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i><br>Categories</a></li><li class="menu-item menu-item-about"><a href="/about" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i><br>About</a></li><li class="menu-item menu-item-archives"><a href="/archives" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i><br>Archives</a></li><li class="menu-item menu-item-tags"><a href="/tags" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i><br>Tags</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i><br>Sitemap</a></li><li class="menu-item menu-item-search"><a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i><br>Search</a></li></ul><div class="site-search"><div class="popup"><span class="search-icon fa fa-search"></span> <input type="text" id="local-search-input"><div id="local-search-result"></div><span class="popup-btn-close">close</span></div></div></nav></div></header><main id="main" class="main"><div class="main-inner"><div class="content-wrap"><div id="content" class="content"><section id="posts" class="posts-expand"><article class="post post-type-normal" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/"><span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Liangwu"><meta itemprop="description" content=""><meta itemprop="image" content="/images/avatar.gif"></span><span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Liangwu's Notes"><span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"><img style="display:none" itemprop="url image" alt="Liangwu's Notes" src=""></span></span><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" href="/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/" itemprop="url">安装Gogs并共享主机22端口</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i> </span><span class="post-meta-item-text">Posted on</span> <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-09T21:40:36+08:00">2018-01-09 </time></span><span class="post-category"><span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-folder-o"></i> </span><span class="post-meta-item-text">In</span> <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span></span></div></header><div class="post-body" itemprop="articleBody"><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>之前团队一直用的Subversion来管理代码的，开发的时候还OK，但是到了上线后，问题就开始出现，往往发布了一个版本后，代码又有一部分提交，同时可能引进一些新的Bug，再发包的时候，又有新的Bug，很不爽。本身SVN的分支管理不好用，我就强烈推荐Git，之前也一直在用，直接在服务器上开SSH端口就OK，但是权限管理又是一个问题啊，又找了一些Git权限管理的东东，但都太理想。后来想是不是有Github一样的东东，后来就发现了Gitlab，但是这货太耗资源，而且搭建起来也不容易，其他人去维护它就很困难。后来一顿放狗搜，找到了一个比较好的替代<a href="https://hub.docker.com/r/gogs/gogs/" target="_blank" rel="noopener">Gogs</a>，上周末两天基本就在搞这货，使用起来也是很不错的。花时间的部分主要是与主机共享22端口的问题。</p><p>现在服务器那边的环境是，服务器位于防火墙后面，防火墙只开了有限供外网使用的端口，所以Gogs必须在某个共用端口的子目录下进行访问，比如<code>domain.com/git/</code>。防火墙8888端口映射到服务器4444端口，然后服务器4444端口再映射到Gogs Container的3000端口。</p><h1 id="Docker-Gogs安装"><a href="#Docker-Gogs安装" class="headerlink" title="Docker Gogs安装"></a>Docker Gogs安装</h1><p>其实用Docker来安装<a href="https://hub.docker.com/r/gogs/gogs/" target="_blank" rel="noopener">Gogs</a>很简单，直接参考<a href="https://github.com/gogits/gogs/tree/master/docker" target="_blank" rel="noopener">官方的文档</a>主OK了。<br></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Pull image from Docker Hub.</span></span><br><span class="line">$ docker pull gogs/gogs</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create local directory for volume.</span></span><br><span class="line">$ mkdir -p /var/gogs</span><br><span class="line"></span><br><span class="line"><span class="comment"># Use `docker run` for the first time.</span></span><br><span class="line">$ docker run --name=gogs -p 10022:22 -p 10080:3000 -v /var/gogs:/data gogs/gogs</span><br><span class="line"><span class="comment"># 下面是我的配置</span></span><br><span class="line">$ docker run --name gogs -p 3000:3000 -p 10022:22 --link mysql:db -v /opt/my_gogs:/data -e <span class="string">"PUID=1002"</span> -e <span class="string">"PGID=1002"</span> -d gogs/gogs</span><br><span class="line"></span><br><span class="line"><span class="comment"># Use `docker start` if you have stopped it.</span></span><br><span class="line">$ docker start gogs</span><br></pre></td></tr></table></figure><p></p>
+<!doctype html><html class="theme-next pisces use-motion" lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css"><link href="//fonts.lug.ustc.edu.cn/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css"><link href="//cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css"><link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css"><meta name="keywords" content="Liangwu, notes"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0"><meta name="description" content="Idea, Action"><meta property="og:type" content="website"><meta property="og:title" content="Liangwu&#39;s Notes"><meta property="og:url" content="http://notes.guoliangwu.com/index.html"><meta property="og:site_name" content="Liangwu&#39;s Notes"><meta property="og:description" content="Idea, Action"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Liangwu&#39;s Notes"><meta name="twitter:description" content="Idea, Action"><script type="text/javascript" id="hexo.configurations">var NexT=window.NexT||{},CONFIG={root:"/",scheme:"Pisces",sidebar:{position:"left",display:"post"},fancybox:!0,motion:!0,duoshuo:{userId:"6374702565665277000",author:"Author"},algolia:{applicationID:"",apiKey:"",indexName:"",hits:{per_page:10},labels:{input_placeholder:"Search for Posts",hits_empty:"We didn't find any results for the search: ${query}",hits_stats:"${hits} results found in ${time} ms"}}}</script><link rel="canonical" href="http://notes.guoliangwu.com/"><title>Liangwu's Notes</title></head><body itemscope itemtype="http://schema.org/WebPage" lang="en"><div class="container one-collumn sidebar-position-left page-home"><div class="headband"></div><header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="header-inner"><div class="site-meta"><div class="custom-logo-site-title"><a href="/" class="brand" rel="start"><span class="logo-line-before"><i></i></span> <span class="site-title">Liangwu's Notes</span> <span class="logo-line-after"><i></i></span></a></div><h1 class="site-subtitle" itemprop="description">Just note anything</h1></div><div class="site-nav-toggle"><button><span class="btn-bar"></span> <span class="btn-bar"></span> <span class="btn-bar"></span></button></div><nav class="site-nav"><ul id="menu" class="menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i><br>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i><br>Categories</a></li><li class="menu-item menu-item-about"><a href="/about" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i><br>About</a></li><li class="menu-item menu-item-archives"><a href="/archives" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i><br>Archives</a></li><li class="menu-item menu-item-tags"><a href="/tags" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i><br>Tags</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i><br>Sitemap</a></li><li class="menu-item menu-item-search"><a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i><br>Search</a></li></ul><div class="site-search"><div class="popup"><span class="search-icon fa fa-search"></span> <input type="text" id="local-search-input"><div id="local-search-result"></div><span class="popup-btn-close">close</span></div></div></nav></div></header><main id="main" class="main"><div class="main-inner"><div class="content-wrap"><div id="content" class="content"><section id="posts" class="posts-expand"><article class="post post-type-normal" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://notes.guoliangwu.com/2018/04/19/gitlab-docker-share-22-port/"><span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Liangwu"><meta itemprop="description" content=""><meta itemprop="image" content="/images/avatar.gif"></span><span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Liangwu's Notes"><span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"><img style="display:none" itemprop="url image" alt="Liangwu's Notes" src=""></span></span><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" href="/2018/04/19/gitlab-docker-share-22-port/" itemprop="url">Docker运行Gitlab与Host共享22端口</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i> </span><span class="post-meta-item-text">Posted on</span> <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-19T22:28:12+08:00">2018-04-19 </time></span><span class="post-category"><span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-folder-o"></i> </span><span class="post-meta-item-text">In</span> <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span></span></div></header><div class="post-body" itemprop="articleBody"><h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>之前团队从 SVN 已经转到 Git 管理代码了，但是但是大家还是非常不熟悉怎么管理，应该也是我没有把大家带入正轨吧，关于 GitFlow 没有好好给大家讲清楚，木办法。用<a href="(http://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/)">Gogs 管理</a>感觉不是太好，代码多了，团队项目多之后管理不是太方便。于是把目标转向了 Gitlab。但是发现服务器直接装 Gitlab 很不爽，要装一大垞东东。那就转为 Docker 吧，经过一些尝试，一段时间的运行非常不错，加上 Gitlab Runner 测试提交文件是否有问题。也可以直接用 Runner 来打包发布，但是暂时没用它，现在还是用 Jenkins 来进行发布。也比较好用了，大家代码提交合并后，一键发布代码。 :)</p><p>其中外网 IP 的 1111 端口映射到服务器的 5622 端口，但 5622 端口已用 nginx 反射代理了 nexus，所以 docker gitlab 在主要要换一个端口，暂时用了 18080。</p><h2 id="安装-Gitlab"><a href="#安装-Gitlab" class="headerlink" title="安装 Gitlab"></a>安装 Gitlab</h2><p>把 Docker 安装好，然后设置好代理，要不然的话，下载镜像实在是太太太太慢了。我用了两个代理，一个是官方的天朝代理，一个是中科大的代理。</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"registry-mirrors"</span>: [<span class="string">"https://registry.docker-cn.com"</span>, <span class="string">"https://docker.mirrors.ustc.edu.cn"</span>],</span><br><span class="line">  <span class="attr">"insecure-registries"</span>: [<span class="string">"x.x.x.x:8088"</span>],</span><br><span class="line">  <span class="attr">"disable-legacy-registry"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"log-driver"</span>: <span class="string">"json-file"</span>,</span><br><span class="line">  <span class="attr">"log-opts"</span>: &#123; <span class="attr">"max-size"</span>: <span class="string">"5m"</span>, <span class="attr">"max-file"</span>: <span class="string">"3"</span> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后就是开始拖镜像，运行容器了。再稍微进行一点配置就 OK。</p>
+<h3 id="前期准备工作"><a href="#前期准备工作" class="headerlink" title="前期准备工作"></a>前期准备工作</h3><ul>
+<li>Host 有 git 用户</li>
+<li>生成 Host git 用户与 docker git 用户通信用的 ssh 密钥与公钥, <code>ssh-keygen</code>。公钥保存在<code>/opt/gitlab/authorized_keys_proxy</code>，密钥保存在<code>/opt/gitlab/id_rsa</code>。</li>
+<li>找一份 sshd 配置文件拷贝一份至<code>/opt/gitlab/sshd_config</code>，修改一处<code>AuthorizedKeysFile</code>，让 Host git 用户用密钥登录至 docker gitlab。<a href="https://github.com/gogits/gogs/issues/4980#issuecomment-366867170" target="_blank" rel="noopener">参考处</a></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">AuthorizedKeysFile %h/.ssh/authorized_keys /gitlab-data/ssh/authorized_keys ****重要****</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<ul>
+<li>查看 git 用户 user id 和 group id，生成一份<a href="#passwd">passwd</a>和<a href="group">group</a>文件给 docker gitlab 使用，文件见文末，从 gitlab 中提取的。我服务器上分别是 1006 和 1008。为了保证 Host 和 docker gitlab 中的数据文件不会因为权限问题而无法使用。主要是 gitlab 中的用户 SSH Key 文件与 Host git 用户共享。</li>
+<li>在 Host 写个 bash 脚本，用于转发 Host 22 端口接收到 git 用户时转到 docker gitlab 去。</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su - git</span><br><span class="line">mkdir -p /opt/gitlab/data/.ssh</span><br><span class="line">ln -sf /opt/gitlab/data/.ssh /home/git/.ssh</span><br></pre></td></tr></table></figure>
+<ul>
+<li>gitlab 用户用 SSH Key 进行 git 操作时，先连接到 Host，读取<code>/home/git/.ssh/authorized_keys</code>信息并验证，其中<code>authorized_keys</code>第一行告诉用户强制运行一条命令<code>/opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-shell</code>，正好用此命令转发 git 命令至 docker gitlab。这点与<a href="(http://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/)">gogs</a>中的配置类似。</li>
+</ul>
+<figure class="highlight bash"><figcaption><span>/opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"></span><br><span class="line">ssh -i /opt/gitlab/id_rsa -p 12222 -o StrictHostKeyChecking=no git@127.0.0.1 <span class="string">"SSH_ORIGINAL_COMMAND=\"<span class="variable">$SSH_ORIGINAL_COMMAND</span>\" <span class="variable">$0</span> <span class="variable">$@</span>"</span></span><br></pre></td></tr></table></figure>
+<h3 id="运行-gitlab"><a href="#运行-gitlab" class="headerlink" title="运行 gitlab"></a>运行 gitlab</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">docker pull gitlab/gitlab-ce:latest <span class="comment"># 拉镜像文件</span></span><br><span class="line">docker run -d -e -p 18080:5622 -p 12222:22 \</span><br><span class="line">  --name gitlab --restart always \ <span class="comment"># restart always保证Docker服务启动时gitlab容器运行</span></span><br><span class="line">  -v /opt/gitlab/config:/etc/gitlab \ <span class="comment"># 配置文件保存到Host，也可以用volume</span></span><br><span class="line">  -v /opt/gitlab/logs:/var/<span class="built_in">log</span>/gitlab \ <span class="comment"># 日志</span></span><br><span class="line">  -v /opt/gitlab/data:/var/opt/gitlab \ <span class="comment"># 数据</span></span><br><span class="line">  -v /opt/gitlab/sshd_config:/etc/ssh/sshd_config:ro \ <span class="comment"># 配置Host用密钥与docker gitlab通信</span></span><br><span class="line">  -v /opt/gitlab/authorized_keys_proxy:/gitlab-data/ssh/authorized_keys:ro \ <span class="comment"># Host git用户密钥</span></span><br><span class="line">  -v /opt/gitlab/passwd:/etc/passwd:ro \ <span class="comment"># git用户信息</span></span><br><span class="line">  -v /opt/gitlab/group:/etc/group:ro \ <span class="comment"># git用户group信息</span></span><br><span class="line">  -v /usr/share/zoneinfo/Asia/Shanghai:/etc/timezone:ro \ <span class="comment"># 时区</span></span><br><span class="line">  --<span class="built_in">ulimit</span> sigpending=62793 --<span class="built_in">ulimit</span> nproc=131072 \ <span class="comment"># 优化参数</span></span><br><span class="line">  --<span class="built_in">ulimit</span> nofile=60000 --<span class="built_in">ulimit</span> core=0 \</span><br><span class="line">  gitlab/gitlab-ce:latest</span><br></pre></td></tr></table></figure>
+<h3 id="配置-gitlab"><a href="#配置-gitlab" class="headerlink" title="配置 gitlab"></a>配置 gitlab</h3><p>用<code>docker ps</code>查看 gitlab 容器运行成功后，停止容器运行，对 gitlab 进行配置。我的配置项如下。详细各配置项可见 gitlab.rb 的注释说明，或参照<a href="https://docs.gitlab.com/omnibus/settings/configuration.html" target="_blank" rel="noopener">gitlab 官网说明</a>。</p>
+<figure class="highlight ruby"><figcaption><span>/opt/gitlab/config/gitlab.rb</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">external_url <span class="string">'http://10.17.65.22:5622/gitlab'</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_ssh_host'</span>] = <span class="string">'10.17.65.22'</span></span><br><span class="line">gitlab_rails[<span class="string">'time_zone'</span>] = <span class="string">'Asia/Shanghai'</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_email_enabled'</span>] = <span class="literal">true</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_email_from'</span>] = <span class="string">'admin@guoliangwu.com'</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_email_display_name'</span>] = <span class="string">'Admin'</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_email_reply_to'</span>] = <span class="string">'no_reply@guoliangwu.com'</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_username_changing_enabled'</span>] = <span class="literal">false</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_default_theme'</span>] = <span class="number">4</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_default_projects_features_snippets'</span>] = <span class="literal">false</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_default_projects_features_builds'</span>] = <span class="literal">false</span></span><br><span class="line">gitlab_rails[<span class="string">'gitlab_default_projects_features_container_registry'</span>] = <span class="literal">false</span></span><br><span class="line">gitlab_rails[<span class="string">'incoming_email_enabled'</span>] = <span class="literal">false</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_enable'</span>] = <span class="literal">true</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_address'</span>] = <span class="string">"smtp.guoliangwu.com"</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_port'</span>] = <span class="number">465</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_user_name'</span>] = <span class="string">"admin@guoliangwu.com"</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_password'</span>] = <span class="string">"xxxx"</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_domain'</span>] = <span class="string">"guoliangwu.com"</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_authentication'</span>] = <span class="string">"login"</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_enable_starttls_auto'</span>] = <span class="literal">true</span></span><br><span class="line">gitlab_rails[<span class="string">'smtp_tls'</span>] = <span class="literal">true</span></span><br><span class="line">gitlab_rails[<span class="string">'registry_enabled'</span>] = <span class="literal">false</span></span><br><span class="line">unicorn[<span class="string">'worker_processes'</span>] = <span class="number">4</span></span><br><span class="line">sidekiq[<span class="string">'concurrency'</span>] = <span class="number">15</span></span><br><span class="line">postgresql[<span class="string">'shared_buffers'</span>] = <span class="string">"2GB"</span></span><br><span class="line">prometheus[<span class="string">'enable'</span>] = <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h2 id="end"><a href="#end" class="headerlink" title="end"></a>end</h2><p>至此，Gitlab 应该能欢快地跑起来了。后面我在其它服务器配了 gitlab runner 来检查上传的代码是否有问题，不知道有没有时间深入了解 runner，先把<code>.gitlab-ci.yml</code>传上来，以备以后使用吧。PS：因为以后打包发布什么的都要用 maven，就用了 maven 镜像。</p>
+<figure class="highlight yaml"><figcaption><span>.gitlab.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">image:</span> <span class="attr">maven:latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">test:</span></span><br><span class="line"><span class="attr">  stage:</span> <span class="string">test</span></span><br><span class="line"><span class="attr">  script:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">test</span> <span class="string">$(find</span> <span class="string">shanghai/service</span> <span class="bullet">-name</span> <span class="string">"*.properties"</span> <span class="bullet">-path</span> <span class="string">"*/properties/*"</span> <span class="string">| wc -l) -eq 0</span></span><br><span class="line"><span class="string">    - test $(find shanghai/web -name "index.js" -path "*/config/*" | wc -l) -eq 0</span></span><br><span class="line"><span class="string">    - test $(find shanghai/web -name "*.vue" -type f -exec grep -E 'debugger|console\.log' &#123;&#125; \; | wc -l) -eq 0</span></span><br><span class="line"><span class="string"></span><span class="attr">  tags:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">common</span></span><br></pre></td></tr></table></figure>
+<h2 id="passwd"><a href="#passwd" class="headerlink" title="passwd"></a>passwd</h2><figure class="highlight plain"><figcaption><span>/etc/gitlab/passwd</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">root:x:0:0:root:/root:/bin/bash</span><br><span class="line">daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin</span><br><span class="line">bin:x:2:2:bin:/bin:/usr/sbin/nologin</span><br><span class="line">sys:x:3:3:sys:/dev:/usr/sbin/nologin</span><br><span class="line">sync:x:4:65534:sync:/bin:/bin/sync</span><br><span class="line">games:x:5:60:games:/usr/games:/usr/sbin/nologin</span><br><span class="line">man:x:6:12:man:/var/cache/man:/usr/sbin/nologin</span><br><span class="line">lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin</span><br><span class="line">mail:x:8:8:mail:/var/mail:/usr/sbin/nologin</span><br><span class="line">news:x:9:9:news:/var/spool/news:/usr/sbin/nologin</span><br><span class="line">uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin</span><br><span class="line">proxy:x:13:13:proxy:/bin:/usr/sbin/nologin</span><br><span class="line">www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin</span><br><span class="line">backup:x:34:34:backup:/var/backups:/usr/sbin/nologin</span><br><span class="line">list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin</span><br><span class="line">irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin</span><br><span class="line">gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin</span><br><span class="line">nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin</span><br><span class="line">systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false</span><br><span class="line">systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false</span><br><span class="line">systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false</span><br><span class="line">systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false</span><br><span class="line">_apt:x:104:65534::/nonexistent:/bin/false</span><br><span class="line">sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin</span><br><span class="line">git:x:1006:1008::/var/opt/gitlab:/bin/sh ****注意****</span><br><span class="line">gitlab-www:x:999:999::/var/opt/gitlab/nginx:/bin/false</span><br><span class="line">gitlab-redis:x:997:997::/var/opt/gitlab/redis:/bin/false</span><br><span class="line">gitlab-psql:x:996:996::/var/opt/gitlab/postgresql:/bin/sh</span><br><span class="line">mattermost:x:994:994::/var/opt/gitlab/mattermost:/bin/sh</span><br><span class="line">registry:x:993:993::/var/opt/gitlab/registry:/bin/sh</span><br><span class="line">gitlab-prometheus:x:992:992::/var/opt/gitlab/prometheus:/bin/sh</span><br><span class="line">gitlab-consul:x:991:991::/var/opt/gitlab/consul:/bin/sh</span><br></pre></td></tr></table></figure>
+<h2 id="group"><a href="#group" class="headerlink" title="group"></a>group</h2><figure class="highlight plain"><figcaption><span>/opt/gitlab/group</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">root:x:0:</span><br><span class="line">daemon:x:1:</span><br><span class="line">bin:x:2:</span><br><span class="line">sys:x:3:</span><br><span class="line">adm:x:4:</span><br><span class="line">tty:x:5:</span><br><span class="line">disk:x:6:</span><br><span class="line">lp:x:7:</span><br><span class="line">mail:x:8:</span><br><span class="line">news:x:9:</span><br><span class="line">uucp:x:10:</span><br><span class="line">man:x:12:</span><br><span class="line">proxy:x:13:</span><br><span class="line">kmem:x:15:</span><br><span class="line">dialout:x:20:</span><br><span class="line">fax:x:21:</span><br><span class="line">voice:x:22:</span><br><span class="line">cdrom:x:24:</span><br><span class="line">floppy:x:25:</span><br><span class="line">tape:x:26:</span><br><span class="line">sudo:x:27:</span><br><span class="line">audio:x:29:</span><br><span class="line">dip:x:30:</span><br><span class="line">www-data:x:33:</span><br><span class="line">backup:x:34:</span><br><span class="line">operator:x:37:</span><br><span class="line">list:x:38:</span><br><span class="line">irc:x:39:</span><br><span class="line">src:x:40:</span><br><span class="line">gnats:x:41:</span><br><span class="line">shadow:x:42:</span><br><span class="line">utmp:x:43:</span><br><span class="line">video:x:44:</span><br><span class="line">sasl:x:45:</span><br><span class="line">plugdev:x:46:</span><br><span class="line">staff:x:50:</span><br><span class="line">games:x:60:</span><br><span class="line">users:x:100:</span><br><span class="line">nogroup:x:65534:</span><br><span class="line">systemd-journal:x:101:</span><br><span class="line">systemd-timesync:x:102:</span><br><span class="line">systemd-network:x:103:</span><br><span class="line">systemd-resolve:x:104:</span><br><span class="line">systemd-bus-proxy:x:105:</span><br><span class="line">ssh:x:106:</span><br><span class="line">git:x:1008: ****注意****</span><br><span class="line">gitlab-www:x:999:</span><br><span class="line">gitlab-redis:x:997:</span><br><span class="line">gitlab-psql:x:996:</span><br><span class="line">mattermost:x:994:</span><br><span class="line">registry:x:993:</span><br><span class="line">gitlab-prometheus:x:99</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Liangwu">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Liangwu's Notes">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none" itemprop="url image" alt="Liangwu's Notes" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/" itemprop="url">
+                  安装Gogs并共享主机22端口
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-09T21:40:36+08:00">
+                2018-01-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>之前团队一直用的Subversion来管理代码的，开发的时候还OK，但是到了上线后，问题就开始出现，往往发布了一个版本后，代码又有一部分提交，同时可能引进一些新的Bug，再发包的时候，又有新的Bug，很不爽。本身SVN的分支管理不好用，我就强烈推荐Git，之前也一直在用，直接在服务器上开SSH端口就OK，但是权限管理又是一个问题啊，又找了一些Git权限管理的东东，但都太理想。后来想是不是有Github一样的东东，后来就发现了Gitlab，但是这货太耗资源，而且搭建起来也不容易，其他人去维护它就很困难。后来一顿放狗搜，找到了一个比较好的替代<a href="https://hub.docker.com/r/gogs/gogs/" target="_blank" rel="noopener">Gogs</a>，上周末两天基本就在搞这货，使用起来也是很不错的。花时间的部分主要是与主机共享22端口的问题。</p><p>现在服务器那边的环境是，服务器位于防火墙后面，防火墙只开了有限供外网使用的端口，所以Gogs必须在某个共用端口的子目录下进行访问，比如<code>domain.com/git/</code>。防火墙8888端口映射到服务器4444端口，然后服务器4444端口再映射到Gogs Container的3000端口。</p><h1 id="Docker-Gogs安装"><a href="#Docker-Gogs安装" class="headerlink" title="Docker Gogs安装"></a>Docker Gogs安装</h1><p>其实用Docker来安装<a href="https://hub.docker.com/r/gogs/gogs/" target="_blank" rel="noopener">Gogs</a>很简单，直接参考<a href="https://github.com/gogits/gogs/tree/master/docker" target="_blank" rel="noopener">官方的文档</a>主OK了。<br></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Pull image from Docker Hub.</span></span><br><span class="line">$ docker pull gogs/gogs</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create local directory for volume.</span></span><br><span class="line">$ mkdir -p /var/gogs</span><br><span class="line"></span><br><span class="line"><span class="comment"># Use `docker run` for the first time.</span></span><br><span class="line">$ docker run --name=gogs -p 10022:22 -p 10080:3000 -v /var/gogs:/data gogs/gogs</span><br><span class="line"><span class="comment"># 下面是我的配置</span></span><br><span class="line">$ docker run --name gogs -p 3000:3000 -p 10022:22 --link mysql:db -v /opt/my_gogs:/data -e <span class="string">"PUID=1002"</span> -e <span class="string">"PGID=1002"</span> -d gogs/gogs</span><br><span class="line"></span><br><span class="line"><span class="comment"># Use `docker start` if you have stopped it.</span></span><br><span class="line">$ docker start gogs</span><br></pre></td></tr></table></figure><p></p>
 <p>其中我运行Gogs的时候加了一些东西。将前端端口映射到Host的3000端口，将Container的SSH端口22映射到Host的1022端口，然后将另一个mysql的Container链接到Gogs，这样可以直接访问MySQL，然后就是将Gogs的配置文件和其它工作文件链接到Host的gogs目录下，然后就是设置Gogs Containerm里面git用户的uid和gid。如果不设置uid和gid的话，container默认的是1000,一般情况下都不是我们想要的结果。一般是在Host新建一个git的用户，将container的uid和gid设置成Host上git用户对应的值，比如我的就是1002和1002。</p>
 <h1 id="Gogsl配置"><a href="#Gogsl配置" class="headerlink" title="Gogsl配置"></a>Gogsl配置</h1><p>Docker Gogs运行起来后，就可以直接浏览器连3000端口进行配置，配置界面很明了，一看就OK。但此时我用的MySQL也是用的Docker，因为之前用了<code>--link mysql:db</code>，表示我有一个container的名称为mysql，映射到gogs的container的名称为db，这样我可以直接用db:3306就可以连上了。在配置界面点确定前，需要在MySQL里新建一个仓，具体代码可以参考<a href="https://github.com/gogits/gogs/blob/master/scripts/mysql.sql" target="_blank" rel="noopener">官方脚本</a>。</p>
 <p>等界面配置好后就再对Gogs进行详细的修改，具体可以参考<a href="https://gogs.io/docs/advanced/configuration_cheat_sheet" target="_blank" rel="noopener">官方文档</a><br></p><figure class="highlight ini"><figcaption><span>app.ini</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">APP_NAME</span> = Gogs</span><br><span class="line"><span class="attr">RUN_USER</span> = git</span><br><span class="line"><span class="attr">RUN_MODE</span> = prod</span><br><span class="line"></span><br><span class="line"><span class="section">[database]</span></span><br><span class="line"><span class="attr">DB_TYPE</span>  = mysql</span><br><span class="line"><span class="attr">HOST</span>     = db:<span class="number">3306</span></span><br><span class="line"><span class="attr">NAME</span>     = gogs</span><br><span class="line"><span class="attr">USER</span>     = root</span><br><span class="line"><span class="attr">PASSWD</span>   = mysql_password</span><br><span class="line"><span class="attr">SSL_MODE</span> = disable</span><br><span class="line"><span class="attr">PATH</span>     = data/gogs.db</span><br><span class="line"></span><br><span class="line"><span class="section">[repository]</span></span><br><span class="line"><span class="attr">ROOT</span> = /data/git/gogs-repositories</span><br><span class="line"><span class="attr">FORCE_PRIVATE</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">DISABLE_HTTP_GIT</span> = <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="section">[repository.upload]</span></span><br><span class="line"><span class="attr">ENABLED</span> = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="section">[server]</span></span><br><span class="line"><span class="attr">DOMAIN</span>           = yourdomain.com</span><br><span class="line"><span class="attr">HTTP_PORT</span>        = <span class="number">3000</span></span><br><span class="line"><span class="attr">ROOT_URL</span>         = http://localhost:<span class="number">3000</span>/git/</span><br><span class="line"><span class="attr">DISABLE_SSH</span>      = <span class="literal">false</span></span><br><span class="line"><span class="attr">SSH_PORT</span>         = <span class="number">22</span></span><br><span class="line"><span class="attr">START_SSH_SERVER</span> = <span class="literal">false</span></span><br><span class="line"><span class="attr">OFFLINE_MODE</span>     = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="section">[mailer]</span></span><br><span class="line"><span class="attr">ENABLED</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">DISABLE_HELO</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">HOST</span> = smtp.xxx.com:<span class="number">587</span></span><br><span class="line"><span class="attr">SUBJECT</span> = GIT</span><br><span class="line"><span class="attr">FROM</span> = <span class="string">"GIT"</span> &lt;xxx@xxx.com&gt;</span><br><span class="line"><span class="attr">USER</span> = xxx@xxx.com</span><br><span class="line"><span class="attr">PASSWD</span> = xxx</span><br><span class="line"><span class="attr">SKIP_VERIFY</span> = <span class="literal">false</span></span><br><span class="line"><span class="attr">USE_PLAIN_TEXT</span> = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="section">[service]</span></span><br><span class="line"><span class="attr">REGISTER_EMAIL_CONFIRM</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">ENABLE_NOTIFY_MAIL</span>     = <span class="literal">true</span></span><br><span class="line"><span class="attr">DISABLE_REGISTRATION</span>   = <span class="literal">true</span></span><br><span class="line"><span class="attr">ENABLE_CAPTCHA</span>         = <span class="literal">true</span></span><br><span class="line"><span class="attr">REQUIRE_SIGNIN_VIEW</span>    = <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="section">[picture]</span></span><br><span class="line"><span class="attr">DISABLE_GRAVATAR</span>        = <span class="literal">true</span></span><br><span class="line"><span class="attr">ENABLE_FEDERATED_AVATAR</span> = <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="section">[session]</span></span><br><span class="line"><span class="attr">PROVIDER</span> = file</span><br><span class="line"></span><br><span class="line"><span class="section">[log]</span></span><br><span class="line"><span class="attr">MODE</span>      = file</span><br><span class="line"><span class="attr">LEVEL</span>     = Info</span><br><span class="line"><span class="attr">ROOT_PATH</span> = /app/gogs/log</span><br><span class="line"></span><br><span class="line"><span class="section">[security]</span></span><br><span class="line"><span class="attr">INSTALL_LOCK</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">SECRET_KEY</span>   = qHtSV2KhCcMA0Xl</span><br><span class="line"></span><br><span class="line"><span class="section">[other]</span></span><br><span class="line"><span class="attr">SHOW_FOOTER_BRANDING</span> = <span class="literal">false</span></span><br><span class="line"><span class="attr">SHOW_FOOTER_VERSION</span> = <span class="literal">false</span></span><br><span class="line"><span class="attr">SHOW_FOOTER_TEMPLATE_LOAD_TIME</span> = <span class="literal">false</span></span><br></pre></td></tr></table></figure><p></p>
@@ -1211,151 +1374,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://notes.guoliangwu.com/2017/01/20/hexo-setup/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Liangwu">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Liangwu's Notes">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none" itemprop="url image" alt="Liangwu's Notes" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/01/20/hexo-setup/" itemprop="url">
-                  安装Hexo
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-20T21:29:22+08:00">
-                2017-01-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Blog/" itemprop="url" rel="index">
-                    <span itemprop="name">Blog</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">什么是Hexo</a></h2><p>自己的那个VPS太久没有管了，用的是WordPress，对于我个人使用而言太重，正好Github Pages可以用来搞个静态Blog，轻太多了。只是配置起来比WordPress稍微麻烦一些。以此记录下。</p><p>Hexo网站上写了一段话。</p><blockquote><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p></blockquote>
-          
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/01/20/hexo-setup/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1401,7 +1419,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
