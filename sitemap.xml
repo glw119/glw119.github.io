@@ -9,14 +9,14 @@
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2018/06/09/mybatis-collections-resultmap/</loc>
+    <loc>http://notes.guoliangwu.com/2018/06/09/gitlab-runner-configuration/</loc>
     
     <lastmod>2018-07-13T13:41:22.402Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2018/06/09/gitlab-runner-configuration/</loc>
+    <loc>http://notes.guoliangwu.com/2018/06/09/mybatis-collections-resultmap/</loc>
     
     <lastmod>2018-07-13T13:41:22.402Z</lastmod>
     
@@ -44,35 +44,7 @@
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/01/14/ssh-key/</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/categories/index.html</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/about/index.html</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2017/02/10/hexo-configuration/</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/googlef0aab6f9990e0ae2.html</loc>
+    <loc>http://notes.guoliangwu.com/2017/01/20/hexo-setup/</loc>
     
     <lastmod>2017-10-29T07:59:05.280Z</lastmod>
     
@@ -86,7 +58,7 @@
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/01/20/hexo-setup/</loc>
+    <loc>http://notes.guoliangwu.com/2017/02/10/hexo-configuration/</loc>
     
     <lastmod>2017-10-29T07:59:05.280Z</lastmod>
     
@@ -100,7 +72,42 @@
   </url>
   
   <url>
+    <loc>http://notes.guoliangwu.com/about/index.html</loc>
+    
+    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://notes.guoliangwu.com/2017/01/14/ssh-key/</loc>
+    
+    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://notes.guoliangwu.com/googlef0aab6f9990e0ae2.html</loc>
+    
+    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://notes.guoliangwu.com/categories/index.html</loc>
+    
+    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://notes.guoliangwu.com/2017/03/02/Try-MyBatis/</loc>
+    
+    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://notes.guoliangwu.com/2017/04/02/OpenWrt-ShadowSocks-Config/</loc>
     
     <lastmod>2017-10-29T07:59:05.279Z</lastmod>
     
@@ -114,7 +121,7 @@
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/04/02/OpenWrt-ShadowSocks-Config/</loc>
+    <loc>http://notes.guoliangwu.com/2017/04/11/MyBatis-configuration-issues/</loc>
     
     <lastmod>2017-10-29T07:59:05.279Z</lastmod>
     
@@ -129,13 +136,6 @@
   
   <url>
     <loc>http://notes.guoliangwu.com/2017/02/20/IE-JavaScript-Item-Problem/</loc>
-    
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2017/04/11/MyBatis-configuration-issues/</loc>
     
     <lastmod>2017-10-29T07:59:05.279Z</lastmod>
     

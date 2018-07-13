@@ -30,8 +30,8 @@
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>Docker</tag>
+        <tag>git</tag>
         <tag>GitLab</tag>
       </tags>
   </entry>
@@ -43,8 +43,8 @@
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>Docker</tag>
+        <tag>git</tag>
         <tag>ssh</tag>
       </tags>
   </entry>
@@ -56,10 +56,10 @@
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>Docker</tag>
-        <tag>ssh</tag>
+        <tag>git</tag>
         <tag>Gogs</tag>
+        <tag>ssh</tag>
       </tags>
   </entry>
   <entry>
@@ -144,8 +144,8 @@
       </categories>
       <tags>
         <tag>git</tag>
-        <tag>hexo</tag>
         <tag>ssh</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
