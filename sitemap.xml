@@ -2,142 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://notes.guoliangwu.com/2018/07/13/CLIENT-SIDE-CERTIFICATE-AUTHENTICATION-WITH-NGINX/</loc>
+    <loc>https://notes.guoliangwu.com/2019/03/22/nas-setting-up/</loc>
     
-    <lastmod>2018-07-13T15:29:30.462Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2018/06/09/gitlab-runner-configuration/</loc>
-    
-    <lastmod>2018-07-13T13:41:22.402Z</lastmod>
+    <lastmod>2019-03-22T01:02:02.920Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2018/06/09/mybatis-collections-resultmap/</loc>
+    <loc>https://notes.guoliangwu.com/2018/12/01/archlinux-installation/</loc>
     
-    <lastmod>2018-07-13T13:41:22.402Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2018/04/19/gitlab-docker-share-22-port/</loc>
-    
-    <lastmod>2018-04-19T15:45:55.109Z</lastmod>
+    <lastmod>2019-03-22T00:46:57.457Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/</loc>
+    <loc>https://notes.guoliangwu.com/2018/11/18/use-ssh-proxy/</loc>
     
-    <lastmod>2018-01-09T15:08:21.271Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2017/12/26/use-docker-for-development/</loc>
-    
-    <lastmod>2017-12-26T13:55:54.953Z</lastmod>
+    <lastmod>2019-03-22T00:46:57.457Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/01/20/hexo-setup/</loc>
+    <loc>https://notes.guoliangwu.com/2018/11/18/npm-install-global-without-sudo/</loc>
     
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/baidu_verify_dkuWKfVDge.html</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    <lastmod>2019-03-22T00:46:57.457Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/02/10/hexo-configuration/</loc>
+    <loc>https://notes.guoliangwu.com/2018/12/01/mybatis-faq/</loc>
     
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/tags/index.html</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    <lastmod>2019-03-22T00:46:57.457Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/about/index.html</loc>
+    <loc>https://notes.guoliangwu.com/googlef0aab6f9990e0ae2.html</loc>
     
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2017/01/14/ssh-key/</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    <lastmod>2018-12-04T06:35:07.877Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/googlef0aab6f9990e0ae2.html</loc>
+    <loc>https://notes.guoliangwu.com/categories/index.html</loc>
     
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/categories/index.html</loc>
-    
-    <lastmod>2017-10-29T07:59:05.280Z</lastmod>
+    <lastmod>2018-12-04T06:35:07.877Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/03/02/Try-MyBatis/</loc>
+    <loc>https://notes.guoliangwu.com/tags/index.html</loc>
     
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2017/04/02/OpenWrt-ShadowSocks-Config/</loc>
-    
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
+    <lastmod>2018-12-04T06:35:07.877Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/02/06/Java8-lambda/</loc>
+    <loc>https://notes.guoliangwu.com/baidu_verify_dkuWKfVDge.html</loc>
     
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://notes.guoliangwu.com/2017/04/11/MyBatis-configuration-issues/</loc>
-    
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
+    <lastmod>2018-12-04T06:35:07.877Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/02/20/Change-to-Idea/</loc>
+    <loc>https://notes.guoliangwu.com/about/index.html</loc>
     
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
+    <lastmod>2018-12-04T06:35:07.873Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://notes.guoliangwu.com/2017/02/20/IE-JavaScript-Item-Problem/</loc>
+    <loc>https://notes.guoliangwu.com/2018/04/19/gitlab-docker-share-22-port/</loc>
     
-    <lastmod>2017-10-29T07:59:05.279Z</lastmod>
+    <lastmod>2018-12-04T06:35:07.873Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/01/14/ssh-key/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.873Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/02/06/Java8-lambda/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/04/02/OpenWrt-ShadowSocks-Config/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/02/20/Change-to-Idea/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/02/20/IE-JavaScript-Item-Problem/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/04/11/MyBatis-configuration-issues/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/01/20/hexo-setup/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/02/10/hexo-configuration/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/03/02/Try-MyBatis/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2017/12/26/use-docker-for-development/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2018/06/09/mybatis-collections-resultmap/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2018/07/13/CLIENT-SIDE-CERTIFICATE-AUTHENTICATION-WITH-NGINX/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2018/06/09/gitlab-runner-configuration/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://notes.guoliangwu.com/2018/01/09/Install-and-configure-Gogs-with-openSSH-Server/</loc>
+    
+    <lastmod>2018-12-04T06:35:07.867Z</lastmod>
     
   </url>
   
