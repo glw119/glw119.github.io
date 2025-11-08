@@ -1,3 +1,4 @@
+https://notes.guoliangwu.com/2025/11/08/home-network-configuration-2/
 https://notes.guoliangwu.com/2024/01/29/home-network-configuration/
 https://notes.guoliangwu.com/2018/12/01/mybatis-faq/
 https://notes.guoliangwu.com/2018/07/13/CLIENT-SIDE-CERTIFICATE-AUTHENTICATION-WITH-NGINX/
@@ -100,6 +101,8 @@ https://notes.guoliangwu.com/tags/ECharts/
 https://notes.guoliangwu.com/tags/Element/
 https://notes.guoliangwu.com/tags/NFS/
 https://notes.guoliangwu.com/tags/Gen8/
+https://notes.guoliangwu.com/tags/RouterOS/
+https://notes.guoliangwu.com/tags/HomeAssistant/
 https://notes.guoliangwu.com/categories/Linux/
 https://notes.guoliangwu.com/categories/Java/
 https://notes.guoliangwu.com/categories/Python/
